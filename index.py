@@ -1,9 +1,7 @@
-
 friends = ['Hanna', 'Oliver', 'Jama', 'Dan']
 print(friends) # we print the LIST of friends 
 
 # to access the list you can add index
-
 print(friends[1], friends[2])
 # index starts with 0
 
@@ -26,3 +24,43 @@ print(friends[:]) # will print the whole list
 print(len(friends))
 print(friends.index('Oliver'))
 
+friendsgroup = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+print(friendsgroup)
+
+# sort
+friendsgroup.sort()
+print(friendsgroup)
+
+friendsgroup.sort(reverse=True) #will print reverse
+print(friendsgroup)
+
+friendsgroup.reverse()
+print(friendsgroup)
+
+cars.reverse()
+print(cars)
+# print max number
+print(max(cars))
+
+# print min number
+print(min(cars))
+
+#statements, adding one more name to the list 
+friendsgroup.append('Levie')
+print(friendsgroup)
+
+# insert statemnt 
+friendsgroup.insert(1,'Melena')
+print(friendsgroup)
+
+# remove statemnt 
+friendsgroup.remove('Melena')
+print(friendsgroup)
+
+del friendsgroup[2]
+print(friendsgroup)
+
+new_friends=friendsgroup[:]
+print(friendsgroup)
+print(new_friends)

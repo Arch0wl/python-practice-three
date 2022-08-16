@@ -1,4 +1,4 @@
-# cGeMEZUy
+# python-practice-three
 
 ## About Scrimba
 

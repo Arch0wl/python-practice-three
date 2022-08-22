@@ -64,3 +64,8 @@ print(friendsgroup)
 new_friends=friendsgroup[:]
 print(friendsgroup)
 print(new_friends)
+
+friends = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+friends.insert(1,'TerryG')
+print(friends) 

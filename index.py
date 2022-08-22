@@ -69,3 +69,70 @@ friends = ['John','Michael','Terry','Eric','Graham']
 cars = [911,130,328,535,740,308]
 friends.insert(1,'TerryG')
 print(friends) 
+
+friends = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+friends[2]='TerryG'
+print(friends)
+
+friends = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+friends.extend(cars)
+print(friends)
+
+# remove 
+
+friends = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+friends.remove('Terry')
+print(friends)
+
+# pop, when you use pop by default it will grab the latest in array
+
+
+friends = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+friends.pop()
+print(friends)
+
+# or specify wht to remove: 
+
+friends = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+friends.pop(2)
+print(friends) 
+
+# or specify wht to remove: 
+
+friends = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+friends.pop(-1)
+print(friends) 
+
+friends = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+friends.clear()
+print(friends) 
+
+# delete
+
+friends = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+del friends
+print(friends) # friends is not defined 
+
+# delete
+
+friends = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+del friends[2]
+print(friends) 
+
+friends = ['John','Michael','Terry','Eric','Graham']
+cars = [911,130,328,535,740,308]
+del friends[2]
+new_friends = friends[:]
+print(friends)
+print(new_friends)
+
+
